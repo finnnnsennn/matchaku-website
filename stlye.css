@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: green;
+    background: linear-gradient(135deg, #84B179, #A2CB8B, #E8F5BD);
+    transition: 0.5s;
+}
+
+header, section {
+    padding: 80px 20px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #C7EABB;
+    color: green;
+}
+
+.hidden {
+    display: none;
+}
